@@ -12,7 +12,19 @@ export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="ko">
-        <DocumentHead />
+        <DocumentHead>
+          <link rel="preconnect" href="https://fonts.googleapis.com" />
+          <link
+            rel="preload"
+            as="style"
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap"
+          />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap"
+            media="all"
+          />
+        </DocumentHead>
         <body>
           <Main />
           <NextScript />

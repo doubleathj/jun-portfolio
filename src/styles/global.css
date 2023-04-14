@@ -1,0 +1,13 @@
+body {
+    font-family: Noto Sans KR, sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-size: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    vertical-align: baseline;
+    line-height: 1.5;
+    border: 0;
+}
