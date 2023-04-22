@@ -1,14 +1,14 @@
+import Header from "@components/layout/header/Header";
 import Layout from "@components/layout/Layout";
 import MetaHead from "@components/shared/metaHead";
-import { Box, Typography } from "@mui/material";
-import { NextPage } from "next";
+import { Typography } from "@mui/material";
 import { ReactElement } from "react";
 
-const Home: NextPage = (): ReactElement => {
+const Resume = (): ReactElement => {
   return (
     <>
       <MetaHead />
-      <Layout>
+      <Layout header={<Header />}>
         <Typography
           variant={"h6"}
           sx={{
@@ -16,11 +16,11 @@ const Home: NextPage = (): ReactElement => {
             justifyContent: "center",
           }}
         >
-          아직 뭘 만들지 고민 중..
+          Todo: Summary, Experience, Education, Skills, Projects, Contact, etc..
         </Typography>
       </Layout>
     </>
   );
 };
 
-export default Home;
+export default Resume;
