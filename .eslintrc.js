@@ -27,5 +27,6 @@ module.exports = {
     "react/react-in-jsx-scope": "off",
     "simple-import-sort/imports": "warn",
     "simple-import-sort/exports": "warn",
+    "react/prop-types": "off",
   },
 };
