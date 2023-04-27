@@ -9,15 +9,34 @@ const Home: NextPage = (): ReactElement => {
     <>
       <MetaHead />
       <Layout>
-        <Typography
-          variant={"h6"}
+        <Box
           sx={{
+            minHeight: "100vh",
             display: "flex",
             justifyContent: "center",
+            alignItems: "center",
           }}
         >
-          아직 뭘 만들지 고민 중..
-        </Typography>
+          <Typography variant={"h6"}>
+            {`Hi, my name is Hyunjun Choi`}
+            <br />
+            {`I'm the Frontend Developer`}
+          </Typography>
+        </Box>
+        <Box
+          sx={{
+            minHeight: "100vh",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Typography variant={"h6"}>
+            {`Hi, my name is Hyunjun Choi`}
+            <br />
+            {`I'm the Frontend Developer`}
+          </Typography>
+        </Box>
       </Layout>
     </>
   );
